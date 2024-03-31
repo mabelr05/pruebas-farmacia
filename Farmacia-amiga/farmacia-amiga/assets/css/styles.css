@@ -1,0 +1,213 @@
+/* Body styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #ff0000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links styles */
+a {
+  text-decoration: none;
+  color: #040043;
+}
+
+/* Navigation styles */
+.container-nav {
+  background-color: #e2fffb;
+  padding: 1px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-family: "Cooper Black", cursive, sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill='%23333' d='M0 1.5A1.5 1.5 0 011.5 0h13A1.5 1.5 0 0116 1.5v13a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 14.5v-13zm3.75 2.75a.25.25 0 00-.25.25v8.5a.25.25 0 00.25.25h8.5a.25.25 0 00.25-.25v-8.5a.25.25 0 00-.25-.25h-8.5z'/%3e%3c/svg%3e");
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+}
+
+/* Header styles */
+header {
+  background-color: #8be5ed;
+  color: #000000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Product card styles */
+.productos {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  padding: 20px;
+  border-top: 1px solid #d6d3d3;
+}
+
+.card-footer a.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card-footer a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+  background-color: #8be5ed;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Estilos generales */
+body {
+  background-color: #8bc4ed;
+  /* Color de fondo celeste */
+  color: rgb(37, 37, 37);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/**/
+/**/
+
+/* Estilo de los productos */
+.productos {
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  /* Color de fondo del producto */
+  border-radius: 5px;
+  width: calc(20% - 15px);
+  /* Distribución horizontal */
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  color: #000;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.productos img {
+  text-align: center;
+  max-width: 50%;
+}
+
+
+/**/
+.container-i {
+  background-color: #ffffff00;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 10px;
+  /* Ajusta el ancho según sea necesario */
+  margin: auto;
+  /* Centrar horizontalmente */
+  margin-top: 0px;
+  /* Ajusta la distancia superior según sea necesario */
+  margin-right: 20px;
+  /* Margen derecho para alinear a un costado */
+  /* Para alinear verticalmente */
+  position: fixed;
+  top: 10%;
+  /* Alinea verticalmente al centro */
+  transform: translateY(-50%);
+}
+
+.user-icon-link img {
+  width: 50px;
+  /* Ajusta el tamaño del icono */
+  height: auto;
+  /* Mantener la proporción original */
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.container-r button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.prod {
+  align-items: stretch;
+}
+
+
+
+
+
+.welcome-container {
+  font-family: Lemon Love;
+  color: #606060;
+  text-align: right;
+  margin-right: 7px;
+  /* Ajusta el margen derecho según tu preferencia */
+}

@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: lemon love;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+
+.navbar-brand {
+    font-family: 'Lemon Love', cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header p {
+    font-family: 'Lemon Love', cursive;
+    font-size: 18px;
+}
+
+/* Estilos para la tabla del carrito */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Estilos para el botón de vaciar carrito */
+#btnVaciar {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btnVaciar:hover {
+    background-color: #00a70e;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el botón de PayPal */
+#paypal-button-container {
+    margin-top: 20px;
+}
+
+/* Estilos para el total a pagar */
+#total_pagar {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para la fila del carrito */
+#tblCarrito tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
